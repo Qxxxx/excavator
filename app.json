@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"static/tabbar/excavator_unselected.png",
+        "selectedIconPath": "static/tabbar/excavator_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath":"static/tabbar/me_unselected.png",
+        "selectedIconPath": "static/tabbar/me_selected.png"
+      }
+    ]
+  }
+}
